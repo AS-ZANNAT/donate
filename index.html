@@ -17,13 +17,13 @@
 
     <section class="header">
         <div>
-            <h1>Let's Help Those Who Are</h1>
-            <h1 >More In Need</h1>
-            <p  id="title">
+            <h1 class="head">Let's Help Those Who Are <br>
+               <span class="sec-head">More In Need</span> </h1>
+            <p  id="header-ti">
                 Donating money is the easiest way in which the needy can be helped. </br>They can be donated money or things in order to make their life better. With this money, they can buy food for themselves.
             </p>
         </div></br>
-        <center><a class="link-button" target="_blank" href="">Donate Now</a></center> 
+        <a id="link-button" target="_blank" href="">Donate Now</a>
 
 
     </section>
@@ -36,77 +36,116 @@
                 cu esse possit referrentur,at earn falli.
             </p>
             <div id="donation-container">
-                <div id="left-child">
+                <div class="donate-amount">
                     <h3>500tk</h3>
                 </div>
                 <div id="second-left-child">
-                    <h3>500tk</h3>
+                    <h3>800tk</h3>
                 </div>
-                <div id="middle-child">
-                    <h3>500tk</h3>
+                <div class="donate-amount">
+                    <h3>700tk</h3>
                 </div>
-                <div id="second-right-child">
-                    <h3>500tk</h3>
+                <div class="donate-amount">
+                    <h3>1000tk</h3>
                 </div>
-                <div id="right-child">
-                    <h3>500tk</h3>
+                <div class="donate-amount">
+                    <h3>600tk</h3>
                 </div>
             </div></br>
-            <h5>other amount</h5>
+            <h3>other amount(taka)</h3>
         </div><br>
-        <center><a class="link-button" target="_blank" href="">Donate Now</a></center>
+        <a id="donate-button" target="_blank" href="">Donate Now</a>
 
     </section>
 
 
-    <scetion  id="donation-item">
-        <h1>Our donation Plan</h1>
-        <p>Your gift will help us bring lifesaving medical care to people in need.<br> Emergencies come in many forms: armed conflicts, disease epidemics, natural disasters, malnutrition crises, and more.<br> Your gift ensures that when an emergency happens, our teams are there to relieve suffering and save lives. </p></br>
-        <div class="conatiner">
-            <div class="food-family">
-                <img src="icon8.svg" />
+    <scetion  id="blog">
+        <h1 >Blog</h1><br>
+        
+        <div class="blog-item">
+            <div class="blog-item-box">  
                 <h3>Food for a family</h3>
-                <p>Amet minim mollit non deserunt
+                <img class="img" src="images/donation1.jpg" />
+                <p  class="title">Amet minim mollit non deserunt
                     ullamco est sit aliqua dolor do amet
                     sint. Velit officia consequat duis enim
-                    velit mollit</p>
+                    velit mollit</p><br>
+                    <a class="bttn" target="_blank" href="">Read Details</a>
+                    
             </div>
-            <div class="shelter-family">
+            <div class="blog-item-box">
                 <h3>Shelter for a family</h3>
-                <p>Amet minim mollit non deserunt
+                <img class="img" src="images/donation2.jpg" />
+                <p  class="title">Amet minim mollit non deserunt
                     ullamco est sit aliqua dolor do amet
                     sint. Velit officia consequat duis enim
-                    velit mollit</p>
+                    velit mollit</p><br>
+                    <a class="bttn" target="_blank" href="">Read Details</a>
             </div>
-            <div class="child-education">
+            <div class="blog-item-box">
                 <h3>Education for a child</h3>
-                <p>Amet minim mollit non deserunt
+                <img class="img" src="images/donation5.jpg" />
+                <p  class="title">Amet minim mollit non deserunt
                     ullamco est sit aliqua dolor do amet
                     sint. Velit officia consequat duis enim
-                    velit mollit</p>
+                    velit mollit</p><br>
+                    <a class="bttn" target="_blank" href="">Read Details</a>
             </div>
         </div>
     </scetion>
 
-    <section class="donate-section">
+
+    <section  class="donate-item">
+        <h1>Our Donation</h1>
+        <p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli 
+            deterruisset. No duo populo animal noluisse, enim</p><br>
+
+        <div class="conatiner">
+                <div class="food-family">
+                    <img src="icon/food.png" alt="food"  class="imag"/>
+                    <h3 class="title">Food for a family</h3>
+                    <p class="donate-item-p">Amet minim mollit non deserunt
+                        ullamco est sit aliqua dolor do amet
+                        sint. Velit officia consequat duis enim
+                        velit mollit</p>
+                      
+                </div>
+                <div class="shelter-family"  alt="frame"  id="imag-sh">
+                    <img src="icon/Frame.png" />
+                    <h3  class="title">Shelter for a family</h3>
+                    <p class="donate-item-p">Amet minim mollit non deserunt
+                        ullamco est sit aliqua dolor do amet
+                        sint. Velit officia consequat duis enim
+                        velit mollit</p>
+                </div>
+                <div class="child-education">
+                    <img src="icon/shelter.png"   alt="shelter"  class="imag"/>
+                    <h3  class="title">Education for a child</h3>
+                    <p class="donate-item-p">Amet minim mollit non deserunt
+                        ullamco est sit aliqua dolor do amet
+                        sint. Velit officia consequat duis enim
+                        velit mollit</p>
+                </div>
+            </div>
+    </section>
+
+    <section class="donate-update">
         <h1>Get My Updates</h1>
         <p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli
             deterruisset. No duo populo animal noluisse, enim</p><br>
         <div class="input">
             <div class="sub">
-                <input  type="text" class="email-btn" placeholder="Your email Address">
-                <button  type="submit"  class="btn">Subscribe</button>
+                <form action="">
+                    <input  type="text" class="des email" placeholder="Your email Address"><button  type="submit"  class="des btn">Subscribe</button>
+                </form>
            </div>
-
         </div>
-
-
     </section>
 
 
 
     <section class="footer">
-        <h1>Be Humble</h1>
+        <h1  id="foot-head">Be Humble</h1><br>
         <h5>I'm gonna do it</h5>
 
     </section>
